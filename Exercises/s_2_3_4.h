@@ -9,7 +9,7 @@ namespace Fan {
 		~s_2_3_4 ();
 
 		const std::string Name () const override;
-		void Print () const override;
+		void Execute () const override;
 	};
 }
 

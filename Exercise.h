@@ -16,11 +16,11 @@ namespace Algorithms{
 		// 当前对象对应的题目名称
 		virtual const std::string Name () const = 0;
 
-		// 打印每题的输出
-		virtual void Print () const = 0;
+		// 执行课后习题
+		virtual void Execute () const = 0;
 
 		// 打印所有题目
-		static void PrintExercise ();
+		static void ExecExercise ();
 		~Exercise ();
 	};
 

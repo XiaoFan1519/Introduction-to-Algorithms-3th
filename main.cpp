@@ -2,6 +2,6 @@
 
 int main () {
 
-	Algorithms::Exercise::PrintExercise ();
+	Algorithms::Exercise::ExecExercise ();
 	return 0;
 }

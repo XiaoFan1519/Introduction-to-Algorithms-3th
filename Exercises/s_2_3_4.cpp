@@ -35,7 +35,7 @@ namespace Fan {
 		return "2.3-4";
 	}
 
-	void s_2_3_4::Print () const
+	void s_2_3_4::Execute () const
 	{
 		int size = 20;
 		std::vector<int> vec = GenerateElement (size);

@@ -10,12 +10,12 @@ namespace Algorithms {
 		exercises.push_back (exercise);
 	}
 
-	void Exercise::PrintExercise ()
+	void Exercise::ExecExercise ()
 	{
 		for (auto exercise : exercises)
 		{
 			std::cout << "=====" << exercise->Name () << std::endl;
-			exercise->Print ();
+			exercise->Execute ();
 			std::cout << "=====" << exercise->Name () << std::endl;
 		}
 	}
