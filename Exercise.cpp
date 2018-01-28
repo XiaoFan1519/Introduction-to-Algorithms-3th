@@ -17,6 +17,7 @@ namespace Algorithms {
 			std::cout << "=====" << exercise->Name () << std::endl;
 			exercise->Execute ();
 			std::cout << "=====" << exercise->Name () << std::endl;
+			std::cout << std::endl;
 		}
 	}
 
