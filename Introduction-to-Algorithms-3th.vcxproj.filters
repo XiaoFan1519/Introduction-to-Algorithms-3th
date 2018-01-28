@@ -21,6 +21,9 @@
     <ClInclude Include="Exercises\s_2_3_4.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Exercises\MergeSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise.cpp">
@@ -30,6 +33,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercises\MergeSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

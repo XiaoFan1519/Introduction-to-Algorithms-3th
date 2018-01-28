@@ -116,10 +116,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Exercise.h" />
+    <ClInclude Include="Exercises\MergeSort.h" />
     <ClInclude Include="Exercises\s_2_3_4.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise.cpp" />
+    <ClCompile Include="Exercises\MergeSort.cpp" />
     <ClCompile Include="Exercises\s_2_3_4.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
