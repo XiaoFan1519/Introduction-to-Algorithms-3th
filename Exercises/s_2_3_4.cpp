@@ -4,14 +4,14 @@ using namespace Algorithms;
 
 namespace Fan {
 
-	// 插入算法，递归实现
-	void InsertSort (std::vector<int>& arr, int size) {
+	// 插入排序，递归实现
+	void InsertSort_Recursion (std::vector<int>& arr, int size) {
 		if (1 == size) {
 			return;
 		}
 
 		int end = size - 1;
-		InsertSort (arr, size - 1);
+		InsertSort_Recursion (arr, size - 1);
 		int key = arr[end];
 		int j = end;
 		while (j > 0 && arr[j - 1] > key) {
@@ -40,9 +40,9 @@ namespace Fan {
 		int size = 20;
 		std::vector<int> vec = GenerateElement (size);
 		PrintCollection (vec);
-		InsertSort (vec, size);
+		InsertSort_Recursion (vec, size);
 		PrintCollection (vec);
-		std::cout << "插入算法递归实现" << std::endl;
+		std::cout << "插入排序递归实现" << std::endl;
 	}
 
 	s_2_3_4 s234;
