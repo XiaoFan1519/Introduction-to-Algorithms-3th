@@ -4,7 +4,7 @@ using namespace Algorithms;
 
 namespace Fan {
 
-	// ²åÈëÅÅĞò
+	// æ’å…¥æ’åº
 	void InsertSort (std::vector<int>& arr) {
 		int size = arr.size ();
 		for (int i = 1; i < size; i++) {
@@ -39,7 +39,7 @@ namespace Fan {
 		PrintCollection (vec);
 		InsertSort (vec);
 		PrintCollection (vec);
-		std::cout << "²åÈëÅÅĞò" << std::endl;
+		std::cout << "æ’å…¥æ’åº" << std::endl;
 	}
 
 	s_2_1_2 s212;

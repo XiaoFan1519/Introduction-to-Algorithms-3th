@@ -4,30 +4,30 @@
 #include <string>
 
 namespace Algorithms{
-	// ¿ÎºóÏ°Ìâ³éÏóÀà
+	// è¯¾åä¹ é¢˜æŠ½è±¡ç±»
 	class Exercise
 	{
-		// ±£´æÄ¿Ç°ËùÓĞµÄ¿ÎºóÏ°Ìâ
+		// ä¿å­˜ç›®å‰æ‰€æœ‰çš„è¯¾åä¹ é¢˜
 		static std::vector<const Exercise*> exercises;
 	public:
 		Exercise () = delete;
 		Exercise (const Exercise* exercise);
 
-		// µ±Ç°¶ÔÏó¶ÔÓ¦µÄÌâÄ¿Ãû³Æ
+		// å½“å‰å¯¹è±¡å¯¹åº”çš„é¢˜ç›®åç§°
 		virtual const std::string Name () const = 0;
 
-		// Ö´ĞĞ¿ÎºóÏ°Ìâ
+		// æ‰§è¡Œè¯¾åä¹ é¢˜
 		virtual void Execute () const = 0;
 
-		// ´òÓ¡ËùÓĞÌâÄ¿
+		// æ‰“å°æ‰€æœ‰é¢˜ç›®
 		static void ExecExercise ();
 		~Exercise ();
 	};
 
-	// Éú³ÉÖ¸¶¨ÊıÁ¿µÄintÊı×é
+	// ç”ŸæˆæŒ‡å®šæ•°é‡çš„intæ•°ç»„
 	std::vector<int> GenerateElement (int size);
 
-	// ´òÓ¡¼¯ºÏÖĞµÄÔªËØ
+	// æ‰“å°é›†åˆä¸­çš„å…ƒç´ 
 	template<class T>
 	void PrintCollection (std::vector<T>& collection)
 	{

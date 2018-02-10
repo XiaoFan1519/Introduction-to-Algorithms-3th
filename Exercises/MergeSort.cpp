@@ -4,13 +4,13 @@ using namespace Algorithms;
 
 namespace Fan {
 
-	// ºÏ²¢
+	// åˆå¹¶
 	void Merge (std::vector<int>& arr, int start, int mid, int end) {
 		int LeftLen = mid - start + 1;
 		int RightLen = end - mid;
 
-		// ¸³Öµ¸øÁÙÊ±Êı×é 
-		// todo ÕâÀï¿ÉÒÔÓÅ»¯
+		// èµ‹å€¼ç»™ä¸´æ—¶æ•°ç»„ 
+		// todo è¿™é‡Œå¯ä»¥ä¼˜åŒ–
 		std::vector<int> LeftArr = std::vector<int> (LeftLen);
 		std::vector<int> RightArr = std::vector<int> (RightLen);
 		for (int i = 0; i < LeftLen; i++)
@@ -23,16 +23,16 @@ namespace Fan {
 			RightArr[i] = arr[mid + 1 + i];
 		}
 
-		// ¿ªÊ¼ºÏ²¢
+		// å¼€å§‹åˆå¹¶
 		int LeftIndex = 0, RightIndex = 0, i;
 		for (i = start; i <= end; i++)
 		{
-			// Èç¹û×ó±ß»òÓÒ±ßÒÑ¾­±È½ÏÍêÁË£¬ÔòÖ±½ÓÍË³öÑ­»·
+			// å¦‚æœå·¦è¾¹æˆ–å³è¾¹å·²ç»æ¯”è¾ƒå®Œäº†ï¼Œåˆ™ç›´æ¥é€€å‡ºå¾ªç¯
 			if (LeftIndex >= LeftLen || RightIndex >= RightLen) {
 				break;
 			}
 
-			// ½«·ûºÏÌõ¼şµÄÊı¾İ·Åµ½Ö¸¶¨Î»ÖÃÉÏ
+			// å°†ç¬¦åˆæ¡ä»¶çš„æ•°æ®æ”¾åˆ°æŒ‡å®šä½ç½®ä¸Š
 			if (LeftArr[LeftIndex] <= RightArr[RightIndex]) {
 				arr[i] = LeftArr[LeftIndex];
 				LeftIndex++;
@@ -43,7 +43,7 @@ namespace Fan {
 			}
 		}
 
-		// ½«Ê£ÓàµÄÊı¾İÆ´½Ó
+		// å°†å‰©ä½™çš„æ•°æ®æ‹¼æ¥
 		while (LeftIndex < LeftLen) {
 			arr[i] = LeftArr[LeftIndex];
 			i++;
@@ -57,7 +57,7 @@ namespace Fan {
 		}
 	}
 
-	// ½«Êı×é·Ö½â³É×îĞ¡ĞòÁĞ
+	// å°†æ•°ç»„åˆ†è§£æˆæœ€å°åºåˆ—
 	void Merge_Sort (std::vector<int>& arr, int start, int end) {
 
 		if (start >= end) {
@@ -70,7 +70,7 @@ namespace Fan {
 		Merge (arr, start, mid, end);
 	}
 
-	// ¹é²¢ÅÅĞò
+	// å½’å¹¶æ’åº
 	void Merge_Sort (std::vector<int>& arr) {
 
 		int n = arr.size ();
@@ -94,7 +94,7 @@ namespace Fan {
 
 	const std::string MergeSort::Name () const
 	{
-		return "¹é²¢Ëã·¨";
+		return "å½’å¹¶ç®—æ³•";
 	}
 
 	void MergeSort::Execute () const
@@ -104,7 +104,7 @@ namespace Fan {
 		PrintCollection (vec);
 		Merge_Sort (vec);
 		PrintCollection (vec);
-		std::cout << "¹é²¢ÅÅĞòËã·¨" << std::endl;
+		std::cout << "å½’å¹¶æ’åºç®—æ³•" << std::endl;
 	}
 
 	MergeSort mergeSort;

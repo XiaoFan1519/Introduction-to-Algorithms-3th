@@ -2,7 +2,7 @@
 
 namespace Algorithms {
 
-	// ³õÊ¼»¯
+	// åˆå§‹åŒ–
 	std::vector<const Exercise*> Exercise::exercises;
 
 	Exercise::Exercise (const Exercise* exercise)

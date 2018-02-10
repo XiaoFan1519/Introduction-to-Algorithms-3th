@@ -4,7 +4,7 @@ using namespace Algorithms;
 
 namespace Fan {
 
-	// 插入排序，递归实现
+	// 鎻掑叆鎺掑簭锛岄�掑綊瀹炵幇
 	void InsertSort_Recursion (std::vector<int>& arr, int size) {
 		if (1 == size) {
 			return;
@@ -42,7 +42,7 @@ namespace Fan {
 		PrintCollection (vec);
 		InsertSort_Recursion (vec, size);
 		PrintCollection (vec);
-		std::cout << "插入排序递归实现" << std::endl;
+		std::cout << "鎻掑叆鎺掑簭閫掑綊瀹炵幇" << std::endl;
 	}
 
 	s_2_3_4 s234;
