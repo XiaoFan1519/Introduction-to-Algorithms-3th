@@ -9,30 +9,23 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exercise.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Exercises\s_2_3_4.h">
+    <ClInclude Include="Exercises\s_2_1_2.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Exercises\MergeSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Exercises\s_2_1_2.h">
+    <ClInclude Include="Exercises\s_2_3_4.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Exercises\s_2_3_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -42,6 +35,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Exercises\s_2_1_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercises\s_2_3_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
