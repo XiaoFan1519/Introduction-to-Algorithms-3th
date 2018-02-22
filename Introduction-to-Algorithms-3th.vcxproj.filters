@@ -27,6 +27,9 @@
     <ClInclude Include="Exercises\s_2_1_2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Exercises\s_2_3_5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise.cpp">
@@ -42,6 +45,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Exercises\s_2_1_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercises\s_2_3_5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
