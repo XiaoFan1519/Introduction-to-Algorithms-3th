@@ -19,14 +19,14 @@ void InsertSort(std::vector<int> &arr)
 	}
 }
 
-class E212 : public Algorithms::Exercise
+class E0212 : public Algorithms::Exercise
 {
 public:
-	E212() : Exercise(this)
+	E0212() : Exercise(this)
 	{
 	}
 
-	~E212()
+	~E0212()
 	{
 	}
 
@@ -45,4 +45,4 @@ public:
 	}
 };
 
-E212 e212;
+E0212 e0212;

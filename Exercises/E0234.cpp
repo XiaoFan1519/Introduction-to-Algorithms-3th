@@ -22,14 +22,14 @@ void InsertSort_Recursion(std::vector<int> &arr, int size)
 	arr[j] = key;
 }
 
-class E234 : public Algorithms::Exercise
+class E0234 : public Algorithms::Exercise
 {
 public:
-	E234() : Exercise(this)
+	E0234() : Exercise(this)
 	{
 	}
 
-	~E234()
+	~E0234()
 	{
 	}
 
@@ -48,4 +48,4 @@ public:
 	}
 };
 
-E234 e234;
+E0234 e0234;
